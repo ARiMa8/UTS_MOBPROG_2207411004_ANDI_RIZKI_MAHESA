@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CD PROJEKT RED"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp"/>
+
+    <ImageView
+        android:id="@+id/logoo"
+        android:layout_width="220dp"
+        android:layout_height="291dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="Game Dev Logo"
+        android:paddingBottom="16dp"
+        android:src="@drawable/cdprlogo" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PASSIONATE\nCREATORS OF STORY-DRIVEN\nROLE-PLAYING GAMES"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/team"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Our Team:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/team_members"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Design and Story\nProduction\nArt\nDev and QA\nMarketing and PR\nStudio Operations"
+        android:textSize="16sp"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Our Games:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingTop="12dp"
+        android:paddingBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/contact_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cyberpunk 2077\nThe Witcher Trilogy\nGwent"
+        android:textSize="16sp"/>
+
+</LinearLayout>
